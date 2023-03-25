@@ -146,7 +146,7 @@
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
-        "anisotropy": 0,
+        "anisotropy": 1,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "2361b826-d506-46ce-b948-9dd940f966c2@43c71"
       },

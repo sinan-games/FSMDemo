@@ -2,10 +2,7 @@ import { Animation, Component, RigidBody, v3, Vec3, _decorator } from "cc";
 import { PlayAniDef } from "./defs/PlayAniDef";
 import { PlayerState } from "./defs/PlayerStateDef";
 import { GameFlag } from "./GameFlag";
-import {
-    AnimationListener,
-    IAnimationHandler
-} from "./listener/AnimationListener";
+import { AnimationListener, IAnimationHandler } from "./listener/AnimationListener";
 import { HitBox } from "./simpy/HitBox";
 import { Attack1State } from "./states/common/Attack1State";
 import { Attack2State } from "./states/common/Attack2State";
@@ -28,16 +25,14 @@ export class PlayerBase extends Component implements IAnimationHandler {
         // this.leftAttack.enabled = true;
         // this.rightAttack.enabled = true;
         if (this.fsm.activeState) {
-            if (this.fsm.activeState["onStartAttack"])
-                this.fsm.activeState["onStartAttack"]();
+            if (this.fsm.activeState["onStartAttack"]) this.fsm.activeState["onStartAttack"]();
         }
     }
     onEndAttack() {
         this.leftAttack.enabled = false;
         this.rightAttack.enabled = false;
         if (this.fsm.activeState) {
-            if (this.fsm.activeState["onEndAttack"])
-                this.fsm.activeState["onEndAttack"]();
+            if (this.fsm.activeState["onEndAttack"]) this.fsm.activeState["onEndAttack"]();
         }
     }
     onEnd() {
@@ -97,6 +92,12 @@ export class PlayerBase extends Component implements IAnimationHandler {
         this.ani.play(ani);
     }
 
+    crossFade(ani: string, t: number) {
+        // this.ani.stop()
+        this.ani.crossFade(ani,t)
+       // this.ani.play(ani);
+    }
+
     addCd() {
         this.playStateFlag.addFlag(PlayFlagType.CoolDown);
     }
@@ -118,7 +119,7 @@ export class PlayerBase extends Component implements IAnimationHandler {
             if (this.keyFlag.hasFlag(InputType.J)) {
                 if (this.fsm.activeID == PlayerState.Attack1) {
                     this.fsm.changeState(PlayerState.Attack2);
-                }else{
+                } else {
                     this.fsm.changeState(PlayerState.Attack1);
                 }
             } else if (this.keyFlag.hasFlag(InputType.A)) {
@@ -145,7 +146,6 @@ export class PlayerBase extends Component implements IAnimationHandler {
 
     hit() {
         this.fsm.changeState(PlayerState.Hit);
-
     }
 
     protected onStart() {}

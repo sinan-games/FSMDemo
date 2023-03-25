@@ -8,6 +8,9 @@ export interface IAnimationHandler {
 }
 @ccclass("AnimationListener")
 export class AnimationListener extends Component {
+    // @property
+    // showLog = false;
+
     static create(node: Node, handler: IAnimationHandler) {
         if (node) {
             let listener = node.getComponent(AnimationListener);
@@ -26,7 +29,6 @@ export class AnimationListener extends Component {
     }
 
     finish() {
-        //console.log("-------finish---------");
         if (this.handler) this.handler.onEnd();
     }
 }

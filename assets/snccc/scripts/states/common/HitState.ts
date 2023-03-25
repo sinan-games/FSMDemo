@@ -2,17 +2,22 @@ import { PlayAniDef } from "../../defs/PlayAniDef";
 import { PlayerState } from "../../defs/PlayerStateDef";
 import { IAnimationHandler } from "../../listener/AnimationListener";
 import { PlayerBase } from "../../PlayerBase";
+import { AudioClipType, SoundMgr } from "../../SoundMgr";
 import { StateBase } from "./StateBase";
 
 class Hit1 extends StateBase {
     onEnter(prevState: SN.FSM.IState, param?: any): void {
         this.player.playAni(PlayAniDef.hit1)
+        console.log("hit1")
+        SoundMgr.inst.play(AudioClipType.Hit1)
     }
 }
 
 class Hit2 extends StateBase {
     onEnter(prevState: SN.FSM.IState, param?: any): void {
         this.player.playAni(PlayAniDef.hit2)
+        SoundMgr.inst.play(AudioClipType.Hit2)
+        console.log("hit2")
     }
 }
 export class HitState extends SN.FSM.StateMachine implements IAnimationHandler {

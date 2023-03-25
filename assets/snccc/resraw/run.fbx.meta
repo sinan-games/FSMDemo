@@ -2,14 +2,14 @@
   "ver": "2.3.3",
   "importer": "fbx",
   "imported": true,
-  "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca",
+  "uuid": "e92df200-e64c-42d2-98b1-d02e52580987",
   "files": [
     "__original-animation-0.cconb"
   ],
   "subMetas": {
     "41177": {
       "importer": "gltf-material",
-      "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@41177",
+      "uuid": "e92df200-e64c-42d2-98b1-d02e52580987@41177",
       "displayName": "",
       "id": "41177",
       "name": "PumpkinHulk_Material.material",
@@ -25,7 +25,7 @@
     },
     "6aaba": {
       "importer": "gltf-mesh",
-      "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@6aaba",
+      "uuid": "e92df200-e64c-42d2-98b1-d02e52580987@6aaba",
       "displayName": "",
       "id": "6aaba",
       "name": "PumpkinHulk.mesh",
@@ -40,19 +40,19 @@
       ],
       "subMetas": {}
     },
-    "aa04b": {
+    "cf5ee": {
       "importer": "gltf-animation",
-      "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@aa04b",
+      "uuid": "e92df200-e64c-42d2-98b1-d02e52580987@cf5ee",
       "displayName": "",
-      "id": "aa04b",
-      "name": "runBack.animation",
+      "id": "cf5ee",
+      "name": "run.animation",
       "userData": {
         "gltfIndex": 0,
         "wrapMode": 2,
         "sample": 30,
         "span": {
           "from": 0,
-          "to": 1.3666666746139526
+          "to": 1.3333333730697632
         },
         "events": []
       },
@@ -65,7 +65,7 @@
     },
     "438fe": {
       "importer": "gltf-skeleton",
-      "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@438fe",
+      "uuid": "e92df200-e64c-42d2-98b1-d02e52580987@438fe",
       "displayName": "",
       "id": "438fe",
       "name": "UnnamedSkeleton.skeleton",
@@ -82,7 +82,7 @@
     },
     "43c71": {
       "importer": "gltf-embeded-image",
-      "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@43c71",
+      "uuid": "e92df200-e64c-42d2-98b1-d02e52580987@43c71",
       "displayName": "",
       "id": "43c71",
       "name": "file1.image",
@@ -99,7 +99,7 @@
     },
     "adacb": {
       "importer": "gltf-embeded-image",
-      "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@adacb",
+      "uuid": "e92df200-e64c-42d2-98b1-d02e52580987@adacb",
       "displayName": "",
       "id": "adacb",
       "name": "file2.image",
@@ -116,7 +116,7 @@
     },
     "d20e9": {
       "importer": "texture",
-      "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@d20e9",
+      "uuid": "e92df200-e64c-42d2-98b1-d02e52580987@d20e9",
       "displayName": "",
       "id": "d20e9",
       "name": "file1.texture",
@@ -128,7 +128,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@43c71"
+        "imageUuidOrDatabaseUri": "e92df200-e64c-42d2-98b1-d02e52580987@43c71"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -139,7 +139,7 @@
     },
     "e873a": {
       "importer": "texture",
-      "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@e873a",
+      "uuid": "e92df200-e64c-42d2-98b1-d02e52580987@e873a",
       "displayName": "",
       "id": "e873a",
       "name": "file2.texture",
@@ -151,7 +151,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@adacb"
+        "imageUuidOrDatabaseUri": "e92df200-e64c-42d2-98b1-d02e52580987@adacb"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -160,11 +160,11 @@
       ],
       "subMetas": {}
     },
-    "99ab1": {
+    "eb2ba": {
       "importer": "gltf-scene",
-      "uuid": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@99ab1",
+      "uuid": "e92df200-e64c-42d2-98b1-d02e52580987@eb2ba",
       "displayName": "",
-      "id": "99ab1",
+      "id": "eb2ba",
       "name": "run.prefab",
       "userData": {
         "gltfIndex": 0
@@ -181,11 +181,11 @@
     "imageMetas": [
       {
         "name": "file1",
-        "uri": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@43c71"
+        "uri": "e92df200-e64c-42d2-98b1-d02e52580987@43c71"
       },
       {
         "name": "file2",
-        "uri": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@adacb"
+        "uri": "e92df200-e64c-42d2-98b1-d02e52580987@adacb"
       }
     ],
     "fbx": {
@@ -194,35 +194,35 @@
     "animationImportSettings": [
       {
         "name": "mixamo.com",
-        "duration": 1.3666666746139526,
+        "duration": 1.3333333730697632,
         "fps": 30,
         "splits": [
           {
-            "name": "runBack",
+            "name": "run",
             "from": 0,
-            "to": 1.3666666746139526,
+            "to": 1.3333333730697632,
             "wrapMode": 2
           }
         ]
       }
     ],
-    "redirect": "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@99ab1",
+    "redirect": "e92df200-e64c-42d2-98b1-d02e52580987@eb2ba",
     "assetFinder": {
       "meshes": [
-        "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@6aaba"
+        "e92df200-e64c-42d2-98b1-d02e52580987@6aaba"
       ],
       "skeletons": [
-        "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@438fe"
+        "e92df200-e64c-42d2-98b1-d02e52580987@438fe"
       ],
       "textures": [
-        "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@d20e9",
-        "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@e873a"
+        "e92df200-e64c-42d2-98b1-d02e52580987@d20e9",
+        "e92df200-e64c-42d2-98b1-d02e52580987@e873a"
       ],
       "materials": [
-        "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@41177"
+        "e92df200-e64c-42d2-98b1-d02e52580987@41177"
       ],
       "scenes": [
-        "2be25d5f-7c94-433f-83ee-8cacdbcfc2ca@99ab1"
+        "e92df200-e64c-42d2-98b1-d02e52580987@eb2ba"
       ]
     }
   }

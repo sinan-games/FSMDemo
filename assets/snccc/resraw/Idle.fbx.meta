@@ -144,22 +144,6 @@
       ],
       "subMetas": {}
     },
-    "42ae3": {
-      "importer": "gltf-material",
-      "uuid": "76f78408-1559-4192-95bf-65d78488c4ae@42ae3",
-      "displayName": "",
-      "id": "42ae3",
-      "name": "mutant_M.material",
-      "userData": {
-        "gltfIndex": 0
-      },
-      "ver": "1.0.14",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
     "503de": {
       "importer": "gltf-scene",
       "uuid": "76f78408-1559-4192-95bf-65d78488c4ae@503de",
@@ -219,11 +203,13 @@
         "76f78408-1559-4192-95bf-65d78488c4ae@e873a"
       ],
       "materials": [
-        "76f78408-1559-4192-95bf-65d78488c4ae@42ae3"
+        "28e66d2e-df3c-4413-bd61-50341f832d44"
       ],
       "scenes": [
         "76f78408-1559-4192-95bf-65d78488c4ae@503de"
       ]
-    }
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/snccc/resraw/Materials_Idle"
   }
 }

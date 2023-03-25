@@ -1,0 +1,137 @@
+{
+  "ver": "2.3.3",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6585b1cc-6ece-4c51-ba17-94cc75e5d509",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "0eb9c": {
+      "importer": "gltf-mesh",
+      "uuid": "6585b1cc-6ece-4c51-ba17-94cc75e5d509@0eb9c",
+      "displayName": "",
+      "id": "0eb9c",
+      "name": "boss.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "6585b1cc-6ece-4c51-ba17-94cc75e5d509@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 12.166666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "6585b1cc-6ece-4c51-ba17-94cc75e5d509@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 23
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c4061": {
+      "importer": "gltf-material",
+      "uuid": "6585b1cc-6ece-4c51-ba17-94cc75e5d509@c4061",
+      "displayName": "",
+      "id": "c4061",
+      "name": "boss.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "22ad0": {
+      "importer": "gltf-scene",
+      "uuid": "6585b1cc-6ece-4c51-ba17-94cc75e5d509@22ad0",
+      "displayName": "",
+      "id": "22ad0",
+      "name": "bossAll.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 12.166666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 12.166666984558105,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "6585b1cc-6ece-4c51-ba17-94cc75e5d509@22ad0",
+    "assetFinder": {
+      "meshes": [
+        "6585b1cc-6ece-4c51-ba17-94cc75e5d509@0eb9c"
+      ],
+      "skeletons": [
+        "6585b1cc-6ece-4c51-ba17-94cc75e5d509@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "6585b1cc-6ece-4c51-ba17-94cc75e5d509@c4061"
+      ],
+      "scenes": [
+        "6585b1cc-6ece-4c51-ba17-94cc75e5d509@22ad0"
+      ]
+    }
+  }
+}

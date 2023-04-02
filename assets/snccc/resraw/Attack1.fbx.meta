@@ -147,8 +147,8 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "52996122-4d2a-425c-b2d3-cfff7c6d251f@43c71"
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/snccc/resraw/Materials_Idle/tex1.png"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -170,8 +170,8 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "52996122-4d2a-425c-b2d3-cfff7c6d251f@adacb"
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/snccc/resraw/Materials_Idle/now1.png"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -201,10 +201,12 @@
     "imageMetas": [
       {
         "name": "file1",
+        "remap": "db://assets/snccc/resraw/Materials_Idle/tex1.png",
         "uri": "52996122-4d2a-425c-b2d3-cfff7c6d251f@43c71"
       },
       {
         "name": "file2",
+        "remap": "db://assets/snccc/resraw/Materials_Idle/now1.png",
         "uri": "52996122-4d2a-425c-b2d3-cfff7c6d251f@adacb"
       }
     ],
@@ -310,6 +312,7 @@
           {}
         ]
       }
-    }
+    },
+    "useVertexColors": false
   }
 }

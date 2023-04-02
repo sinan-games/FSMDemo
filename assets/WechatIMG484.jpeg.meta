@@ -2,27 +2,27 @@
   "ver": "1.0.25",
   "importer": "image",
   "imported": true,
-  "uuid": "5c82baa2-d6bf-45b6-92bd-c5a6860f024a",
+  "uuid": "36be7c2b-86b9-49ab-b88d-0c5cea4a18e7",
   "files": [
-    ".json",
-    ".png"
+    ".jpeg",
+    ".json"
   ],
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "5c82baa2-d6bf-45b6-92bd-c5a6860f024a@6c48a",
-      "displayName": "skin2_now",
+      "uuid": "36be7c2b-86b9-49ab-b88d-0c5cea4a18e7@6c48a",
+      "displayName": "WechatIMG484",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
-        "mipfilter": "nearest",
+        "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "5c82baa2-d6bf-45b6-92bd-c5a6860f024a",
+        "imageUuidOrDatabaseUri": "36be7c2b-86b9-49ab-b88d-0c5cea4a18e7",
         "visible": true
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "fixAlphaTransparencyArtifacts": true,
     "hasAlpha": false,
     "type": "texture",
-    "redirect": "5c82baa2-d6bf-45b6-92bd-c5a6860f024a@6c48a"
+    "redirect": "36be7c2b-86b9-49ab-b88d-0c5cea4a18e7@6c48a"
   }
 }

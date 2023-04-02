@@ -9,10 +9,7 @@
   },
   "_techIdx": 0,
   "_defines": [
-    {
-      "USE_NORMAL_MAP": true,
-      "USE_ALBEDO_MAP": true
-    },
+    {},
     {},
     {}
   ],
@@ -47,14 +44,8 @@
   ],
   "_props": [
     {
-      "mainTexture": {
-        "__uuid__": "325cbc5f-56dc-467d-bb9b-6436b2b61bb9@6c48a",
-        "__expectedType__": "cc.Texture2D"
-      },
-      "normalMap": {
-        "__uuid__": "da7bb39a-e62c-4aa2-87e2-af9904c9b8f3@3c318",
-        "__expectedType__": "cc.Texture2D"
-      }
+      "roughness": 0.972,
+      "metallic": 1
     },
     {},
     {}
